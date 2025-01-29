@@ -10,11 +10,11 @@ import java.util.Optional;
 @Repository
 public interface DocumentRepository extends JpaRepository<Document, Long> {
 
-    Document save(Document document);
+  /*  Document save(Document document);
 
     Optional<Document> findById(Long id);
 
     void deleteById(Long id);
 
-    List<Document> id(Long id);
+    List<Document> id(Long id);*/
 }
